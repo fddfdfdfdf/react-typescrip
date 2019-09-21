@@ -9,7 +9,7 @@ const postcssLoader = {
     sourceMap: _DEV_ ? true : false,
     plugins: [
       require('autoprefixer')({
-        browsers: ["iOS>7", "Android>4", "Chrome > 31", "ff > 31", "ie >= 11"]
+        browsers: ["> 0%"]
       }),
       // require('postcss-pxtorem')({
       //   rootValue: 40,

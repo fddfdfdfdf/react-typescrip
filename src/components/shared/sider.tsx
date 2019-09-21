@@ -49,7 +49,7 @@ const MenuList = [{
   children: [{
     key: '99-0', title: '示例', path: '/home/demos', icon:'experiment'
   },{
-    key: '99-1', title: '示例mobx', path: '/home/demo-mobx', icon:'experiment'
+    key: '99-1', title: '示例', path: '/home/demo-mobx', icon:'experiment'
   }]
 }]
 
@@ -69,7 +69,7 @@ class SiderComponent extends React.Component<ISiderProps> {
 
   render(){
     const {collapsed} = this.props
-    
+
     return (<Sider
       trigger={null}
       collapsible
